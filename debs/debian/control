@@ -6,13 +6,13 @@ Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
 Build-Depends-Indep: libactivemq-java (>= 5.6.0), libapache-pom-java (>= 10), libcommons-httpclient-java,  
  libgeronimo-jms-1.1-spec-java, libjgroups-java, libservlet2.5-java, libtomcat7-java,  
- libxalan2-java, libactivemq-protobuf-java
+ libxalan2-java, libactivemq-protobuf-java, libosgi-core-java
 Standards-Version: 3.9.6
 Homepage: https://github.com/apache/flex-blazeds
 
 Package: libflex-java
 Architecture: all
-Depends: ${misc:Depends}, ${maven:Depends}, libactivemq-protobuf-java
+Depends: ${misc:Depends}, ${maven:Depends}, libactivemq-protobuf-java, libosgi-core-java
 Suggests: ${maven:OptionalDepends}
 Description: Apache Flex Messaging
  The Apache Software Foundation provides support for the Apache community
