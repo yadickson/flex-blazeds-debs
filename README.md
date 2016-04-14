@@ -1,5 +1,5 @@
-# flex-blazeds-debs
-Build Debian Package for flex-blazeds
+# flex-debs
+Build Debian Package for Apache Flex
 
 **Build dependencies**
 
@@ -7,13 +7,14 @@ Build Debian Package for flex-blazeds
 - cdbs
 - default-jdk
 - maven-debian-helper (>= 1.5)
+- libactivemq-java (>= 5.6.0)
 - libapache-pom-java (>= 10)
 - libcommons-httpclient-java
-- libxalan2-java
-- libjgroups-java
 - libgeronimo-jms-1.1-spec-java
+- libjgroups-java
+- libservlet2.5-java
 - libtomcat7-java
-- libactivemq-java
+- libxalan2-java
 - libactivemq-protobuf-java
 
 **Tested**
@@ -24,5 +25,5 @@ Build Debian Package for flex-blazeds
 **Links**
 
 - [Home page from source code](https://github.com/apache/flex-blazeds)
-- [Debian source code release](https://github.com/yadickson/flex-blazeds-debs/releases)
+- [Debian source code release](https://github.com/yadickson/flex-debs/releases)
 
