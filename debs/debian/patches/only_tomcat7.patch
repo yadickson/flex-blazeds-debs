@@ -1,0 +1,11 @@
+--- flex-blazeds-4.8.0+git20151228~53b0f6a/opt/tomcat/pom.xml	2015-12-28 10:33:56.000000000 -0430
++++ flex-blazeds-4.8.0+git20151228~53b0f6a~/opt/tomcat/pom.xml	2016-04-13 22:23:13.107590852 -0430
+@@ -30,8 +30,6 @@
+ 
+     <modules>
+         <module>tomcat-base</module>
+-        <module>tomcat-4</module>
+-        <module>tomcat-6</module>
+         <module>tomcat-7</module>
+     </modules>
+ 

@@ -1,0 +1,51 @@
+--- a/core/pom.xml
++++ b/core/pom.xml
+@@ -38,28 +38,24 @@ limitations under the License.
+             <groupId>org.apache.activemq</groupId>
+             <artifactId>activemq-core</artifactId>
+             <version>5.7.0</version>
+-            <scope>provided</scope>
+         </dependency>
+ 
+ 		<dependency>
+ 			<groupId>jgroups</groupId>
+ 			<artifactId>jgroups</artifactId>
+ 			<version>2.9.0.GA</version>
+-			<scope>provided</scope>
+ 		</dependency>
+ 
+ 		<dependency>
+ 			<groupId>javax.servlet</groupId>
+ 			<artifactId>servlet-api</artifactId>
+ 			<version>2.5</version>
+-			<scope>provided</scope>
+ 		</dependency>
+ 
+ 		<dependency>
+ 			<groupId>javax.jms</groupId>
+ 			<artifactId>jms-api</artifactId>
+ 			<version>1.1-rev-1</version>
+-			<scope>provided</scope>
+ 		</dependency>
+ 	</dependencies>
+ 
+--- a/proxy/pom.xml
++++ b/proxy/pom.xml
+@@ -44,7 +44,6 @@ limitations under the License.
+ 			<groupId>javax.servlet</groupId>
+ 			<artifactId>servlet-api</artifactId>
+ 			<version>2.5</version>
+-			<scope>provided</scope>
+ 		</dependency>
+ 
+ 		<dependency>
+--- a/opt/tomcat/tomcat-7/pom.xml
++++ b/opt/tomcat/tomcat-7/pom.xml
+@@ -32,7 +32,6 @@ limitations under the License.
+ 			<groupId>org.apache.tomcat</groupId>
+ 			<artifactId>tomcat-catalina</artifactId>
+ 			<version>7.0.8</version>
+-			<scope>provided</scope>
+ 		</dependency>
+ 
+         <dependency>

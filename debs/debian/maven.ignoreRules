@@ -1,0 +1,4 @@
+
+junit junit * * * *
+org.apache.maven.plugins maven-assembly-plugin * * * *
+org.apache.maven.plugins maven-javadoc-plugin * * * *
