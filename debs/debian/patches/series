@@ -1,4 +1,3 @@
 only_tomcat7.patch
 remove_testsuite.patch
-remove_provided.patch
 add_classpath.patch

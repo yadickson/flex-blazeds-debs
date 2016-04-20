@@ -12,7 +12,7 @@ Homepage: https://github.com/apache/flex-blazeds
 
 Package: libflex-java
 Architecture: all
-Depends: ${misc:Depends}, ${maven:Depends}, libactivemq-protobuf-java, libosgi-core-java
+Depends: ${misc:Depends}, ${maven:Depends}
 Suggests: ${maven:OptionalDepends}
 Description: Apache Flex Messaging
  The Apache Software Foundation provides support for the Apache community

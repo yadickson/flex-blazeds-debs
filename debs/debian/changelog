@@ -1,3 +1,9 @@
+flex-blazeds (4.8.0+git20151228~53b0f6a-3) unstable; urgency=medium
+
+  * Fix provider packages
+
+ -- Yadickson Soto <yadickson@gmail.com>  Tue, 19 Apr 2016 19:57:06 -0430
+
 flex-blazeds (4.8.0+git20151228~53b0f6a-2) unstable; urgency=medium
 
   * Removed unused tomcat 4 and 6
