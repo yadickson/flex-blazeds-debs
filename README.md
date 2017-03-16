@@ -12,15 +12,23 @@ Build Debian Package for Apache Flex
 - libcommons-httpclient-java
 - libgeronimo-jms-1.1-spec-java
 - libjgroups-java
+- libxalan2-java
+
+For wheezy and jessie
+
 - libservlet2.5-java
 - libtomcat7-java
-- libxalan2-java
 - libactivemq-protobuf-java
+
+Fow stretch
+
+- libservlet3.1-java
 
 **Tested**
 
 - Debian wheezy
 - Debian jessie
+- Debian stretch
 
 **Links**
 

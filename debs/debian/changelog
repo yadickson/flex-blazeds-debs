@@ -1,3 +1,10 @@
+flex-blazeds (4.8.0+git20151228~53b0f6a-4) unstable; urgency=medium
+
+  * Build on stretch
+  * Remove tomcat7 support
+
+ -- Yadickson Soto <yadickson@gmail.com>  Thu, 16 Mar 2017 11:56:16 -0300
+
 flex-blazeds (4.8.0+git20151228~53b0f6a-3) unstable; urgency=medium
 
   * Fix provider packages

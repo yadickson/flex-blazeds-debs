@@ -30,8 +30,8 @@ common/pom.xml --has-package-version --java-lib
 core/pom.xml --has-package-version --java-lib
 proxy/pom.xml --has-package-version --java-lib
 remoting/pom.xml --has-package-version --java-lib
-opt/pom.xml --has-package-version
-opt/tomcat/pom.xml --has-package-version
-opt/tomcat/tomcat-base/pom.xml --has-package-version --java-lib
-opt/tomcat/tomcat-7/pom.xml --has-package-version --java-lib
-assembly/pom.xml --has-package-version
+opt/pom.xml --ignore
+opt/tomcat/pom.xml --ignore
+opt/tomcat/tomcat-base/pom.xml --ignore
+opt/tomcat/tomcat-7/pom.xml --ignore
+assembly/pom.xml --ignore
