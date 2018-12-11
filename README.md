@@ -69,6 +69,6 @@ GPL-3.0 © [Yadickson Soto](https://github.com/yadickson)
 
 Apache-2.0 © [Apache Flex BlazeDS](http://flex.apache.org/)
 
-[travis-image]: https://api.travis-ci.org/yadickson/flex-debs.svg?branch=stretch
+[travis-image]: https://api.travis-ci.org/yadickson/flex-debs.svg?branch=master
 [travis-url]: https://travis-ci.org/yadickson/flex-debs
 
