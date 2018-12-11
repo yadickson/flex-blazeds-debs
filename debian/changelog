@@ -1,0 +1,11 @@
+flex (4.8.0-2) wheezy; urgency=medium
+
+  * New release.
+
+ -- Yadickson Soto <yadickson@gmail.com>  Tue, 11 Dec 2018 14:51:46 -0300
+
+flex (4.8.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Yadickson Soto <yadickson@gmail.com>  Wed, 13 Apr 2016 21:52:49 -0430
