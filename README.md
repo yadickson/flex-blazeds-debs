@@ -20,7 +20,7 @@
 **wheezy and jessie**
 - libservlet2.5-java
 
-**stretch**
+**stretch and buster**
 - libservlet3.1-java
 
 **Download source code**
@@ -51,6 +51,7 @@ $ fakeroot debian/rules clean binary
 - Debian wheezy
 - Debian jessie
 - Debian stretch
+- Debian buster
 
 **Repositories**
 
@@ -69,6 +70,6 @@ GPL-3.0 © [Yadickson Soto](https://github.com/yadickson)
 
 Apache-2.0 © [Apache Flex BlazeDS](http://flex.apache.org/)
 
-[travis-image]: https://api.travis-ci.org/yadickson/flex-debs.svg?branch=stretch
+[travis-image]: https://api.travis-ci.org/yadickson/flex-debs.svg?branch=buster
 [travis-url]: https://travis-ci.org/yadickson/flex-debs
 

@@ -1,3 +1,9 @@
+flex (4.8.0-5) buster; urgency=medium
+
+  * New release.
+
+ -- Yadickson Soto <yadickson@gmail.com>  Tue, 11 Dec 2018 16:52:56 -0300
+
 flex (4.8.0-4) stretch; urgency=medium
 
   * New release.
