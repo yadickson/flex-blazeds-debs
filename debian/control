@@ -6,7 +6,7 @@ Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
 Build-Depends-Indep: libactivemq-java, libcommons-httpclient-java,  
  libgeronimo-jms-1.1-spec-java, libjgroups-java, libservlet2.5-java,
- libxalan2-java, libactivemq-protobuf-java
+ libxalan2-java, libactivemq-protobuf-java, libosgi-core-java
 Standards-Version: 3.9.6
 Homepage: https://github.com/apache/flex-blazeds
 
