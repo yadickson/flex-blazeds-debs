@@ -1,7 +1,7 @@
 
 commons-httpclient commons-httpclient jar s/3\..*/3.x/ * *
 s/javax.jms/org.apache.geronimo.specs/ s/jms-api/geronimo-jms_1.1_spec/ jar s/.*/debian/ * *
-javax.servlet servlet-api jar s/.*/2.5/ * *
+javax.servlet s/servlet-api/javax.servlet-api/ jar s/.*/3.1/ * *
 s/jgroups/org.jgroups/ jgroups jar s/.*/debian/ * *
 s/org.apache.flex.blazeds/org.apache.flex/ flex-messaging-assembly pom s/.*/debian/ * *
 s/org.apache.flex.blazeds/org.apache.flex/ flex-messaging-common jar s/.*/debian/ * *
@@ -19,7 +19,7 @@ s/org.apache.tomcat/javax.servlet.jsp/ s/jsp-api/javax.servlet.jsp-api/ jar s/.*
 s/org.apache.tomcat/javax.servlet/ s/servlet-api/javax.servlet-api/ jar s/.*/3.1/ * *
 s/org.apache.tomcat/javax.websocket/ s/tomcat-websocket-api/javax.websocket-api/ jar s/.*/1.0/ * *
 org.apache apache pom s/.*/debian/ * *
-org.apache.activemq activemq-core jar s/.*/debian/ * *
+org.apache.activemq s/activemq-core/activemq-client/ jar s/.*/debian/ * *
 org.apache.flex flex-messaging-assembly pom s/.*/debian/ * *
 org.apache.flex flex-messaging-common jar s/.*/debian/ * *
 org.apache.flex flex-messaging-core jar s/.*/debian/ * *
