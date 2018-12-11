@@ -16,6 +16,7 @@
 - libxalan2-java
 - libservlet2.5-java
 - libactivemq-protobuf-java
+- libosgi-core-java
 
 **Download source code**
 
