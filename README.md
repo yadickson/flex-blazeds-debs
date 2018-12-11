@@ -8,6 +8,14 @@
 - cdbs
 - default-jdk
 - maven-debian-helper (>= 1.5)
+- libactivemq-java (>= 5.6.0)
+- libapache-pom-java (>= 10)
+- libcommons-httpclient-java
+- libgeronimo-jms-1.1-spec-java
+- libjgroups-java
+- libxalan2-java
+- libservlet2.5-java
+- libactivemq-protobuf-java
 
 **Download source code**
 

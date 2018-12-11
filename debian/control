@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
-Build-Depends-Indep: libactivemq-java, libapache-pom-java (>= 10), libcommons-httpclient-java,  
- libgeronimo-jms-1.1-spec-java, libjgroups-java, libservlet3.1-java,
- libxalan2-java, libosgi-core-java
+Build-Depends-Indep: libactivemq-java, libcommons-httpclient-java,  
+ libgeronimo-jms-1.1-spec-java, libjgroups-java, libservlet2.5-java,
+ libxalan2-java, libactivemq-protobuf-java
 Standards-Version: 3.9.6
 Homepage: https://github.com/apache/flex-blazeds
 
