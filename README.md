@@ -20,7 +20,7 @@
 **wheezy and jessie**
 - libservlet2.5-java
 
-**stretch**
+**stretch and buster**
 - libservlet3.1-java
 
 **Download source code**
@@ -51,6 +51,7 @@ $ fakeroot debian/rules clean binary
 - Debian wheezy
 - Debian jessie
 - Debian stretch
+- Debian buster
 
 **Repositories**
 

@@ -1,0 +1,24 @@
+--- a/core/src/main/java/flex/messaging/log/LoggingHttpServletRequestWrapper.java
++++ b/core/src/main/java/flex/messaging/log/LoggingHttpServletRequestWrapper.java
+@@ -179,6 +179,21 @@
+         {
+             return this._inputStream.available();
+         }
++
++        @Override
++        public boolean isFinished() {
++            return true;
++        }
++
++        @Override
++        public boolean isReady() {
++            return true;
++        }
++
++        @Override
++        public void setReadListener(javax.servlet.ReadListener listener) {
++
++        }
+         // --------------------------------
+         // This is the end of the modification.
+         // --------------------------------
